@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/index2.css">
+</head>
+<body>
+    <p class="back"><img src="img/back.jpg" alt="">返回</p>
+    <div class="top_title">
+        <span class="bg"></span>
+        <h3>人民调解</h3>
+        <span class="bg"></span>
+    </div>
+    <div class="min_title">
+        <span class="til_left"></span>
+        <h4>基本信息库</h4>
+        <span class="til_right"></span>
+    </div>
+    <ul class="mount">
+        <li>
+            <span class="mount_top"></span>
+            <span class="mount_bottom"></span>
+            <span class="mount_left"></span>
+            <span class="mount_right"></span>
+            <p class="title">调解案件量</p>
+            <p class="num">
+                <span>6</span>
+                <span>5</span>
+                <span>0</span>
+                <span>6</span>
+            </p>
+        </li>
+        <li>
+            <span class="mount_top"></span>
+            <span class="mount_bottom"></span>
+            <span class="mount_left"></span>
+            <span class="mount_right"></span>
+            <p class="title">调解案件量</p>
+            <p class="num">
+                <span>9</span>
+                <span>9</span>
+                <span>.</span>
+                <span>8</span>
+                <span>%</span>
+            </p>
+        </li>
+        <li>
+            <span class="mount_top"></span>
+            <span class="mount_bottom"></span>
+            <span class="mount_left"></span>
+            <span class="mount_right"></span>
+            <p class="title">调解案件量</p>
+            <p class="num">
+                <span>1</span>
+                <span>6</span>
+                <span>6</span>
+                <span>6</span>
+                <span>5</span>
+            </p>
+        </li>
+        <li>
+            <span class="mount_top"></span>
+            <span class="mount_bottom"></span>
+            <span class="mount_left"></span>
+            <span class="mount_right"></span>
+            <p class="title">调解案件量</p>
+            <p class="num">
+                ￥
+                <span>2</span>
+                <span>3</span>
+                <span>5</span>
+                <span>6</span>
+                万元
+            </p>
+        </li>
+    </ul>
+    <ul class="table_list">
+        <li>
+            <p>区域案件量VS案件类型 <span>暂停</span></p>
+            <span class="table_span table_left" ></span>
+            <span class="table_span table_right" ></span>
+            <span class="table_span table_top" ></span>
+            <span class="table_span table_bottom" ></span>
+            <div class="pie_left" id="pie"></div>
+            <div class="pie_right" id="tiao"></div>
+        </li>
+        <li>
+            <p>案件量走势VS调解成功率 <span>暂停</span></p>
+            <span class="table_span table_left" ></span>
+            <span class="table_span table_right" ></span>
+            <span class="table_span table_top" ></span>
+            <span class="table_span table_bottom" ></span>
+            <div class="suc_left" id="suc_tiao"></div>
+            <div class="suc_right" id="suc_gauge"></div>
+        </li>
+    </ul>
+</body>
+</html>
+<script src="js/jquery-1.8.3.js"></script>
+<script src="js/echarts.min.js"></script>
+<script src="js/index.js"></script>
+<script>
+    $(function(){
+        gauge();
+        pie();
+        line();
+        line2();
+    })
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
